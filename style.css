@@ -1,0 +1,477 @@
+body {
+    background-color: darkmagenta;
+    margin: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+/* -------NAVBAR------- */
+
+nav {
+    display: relative;
+    justify-content: space-between;
+    height: 120px;
+    box-sizing: border-box;
+    background-color: black;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+ul {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 63px;
+}
+
+nav a:hover {
+    color: darkcyan;
+}
+
+/* ------------TITULINIS--------- */
+
+.titulinis {
+    display: flex;
+    height: 1000px;
+    background-color: black;
+}
+
+.titulinis > * {
+    width: 50%;
+}
+
+.titulinis .vardas {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.titulinis .vardas h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 200px 0 0 0;
+}
+
+.titulinis .vardas h2 {
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 0;
+}
+
+.black-row {
+    background: darkcyan;
+    width: 200px;
+    height: 2px;
+    margin: 0
+}
+
+.titulinis .vardas h3 {
+    margin-top: 10px;
+}
+
+.titulinis .foto {
+    margin-top: 100px;
+}
+
+.titulinis .foto img {
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid darkcyan;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------ABOUT-ME-------------- */
+
+.container1 .about-me {
+    height: 1000px;
+    background-color: white;
+}
+
+.container1 .about-me h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.container1 .about-me-p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+}
+
+.container1 .about-me p {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 40px 0 40px;
+}
+
+
+
+.container1 .education {
+    height: 1000px;
+    background-color: black;
+}
+
+.container1 .education h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.container1 .education .education-info-timeline {
+    margin: 50px 0 0 0;
+    width: 100%;
+    display: grid;
+    height: 60%;
+    grid-template-columns: 1fr 3px 1fr;
+    color: white;
+}
+
+.container1 .education .education-info-timeline .timeline-component {
+    margin: 0 0 20px 20px;
+}
+
+
+.timeline-date-right {
+    text-align: right;
+    float: right;
+    margin-right: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.timeline-middle {
+    position: relative;
+    background: white;
+}
+
+.timeline-point {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 20%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background: darkcyan;
+    border-radius: 50%;
+}
+
+.timeline-component p {
+    margin-top: 0;
+    font-size: 60px;
+    margin-left: 30px;
+    color: white;
+}
+
+.container1 .skills {
+    background-color: white;
+    height: 1000px;
+}
+
+.container1 .skills h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.skills-fotkes {
+    position: relative;
+}
+
+.skills-fotkes .pirma {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.skills-fotkes .antra {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+.skills-fotkes .trecia {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+
+.skills-fotkes .ketvirta {
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+.skills-fotkes .penkta {
+    position: absolute;
+    top: 150px;
+    left: 1400px;
+}
+
+.work-timeline {
+    margin: 50px 0 0 0;
+    width: 100%;
+    display: grid;
+    height: 60%;
+    grid-template-columns: 1fr 3px 1fr;
+    color: white;
+}
+
+.container1 .work-experience {
+    height: 1000px;
+    background-color: black;
+}
+
+.container1 .work-experience h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.container2 {
+    height: 1000px;
+    background-color: white;
+}
+
+.container2 h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.projektu-div {
+    display: flex;
+}
+
+.projekto-foto {
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.projekto-foto2 {
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.projekto-foto p {
+    font-size: 40px;
+}
+
+.projekto-foto2 p {
+    font-size: 40px;
+}
+
+.projektas1 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid darkcyan;
+}
+
+.projektas2 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid darkcyan;
+}
+
+
+/* -------------CONTACT----------- */
+
+.contact {
+    height: auto;
+    background-color: black;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: darkcyan;
+}
+
+.contact .contact-links {
+    display: flex;
+    text-align: center;
+}
+
+.contact .contact-links .contact-email-phone {
+    width: 50%;
+    color: white;
+    font-size: 40px;
+}
+
+.contact .contact-links .contact-email-phone a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact .contact-social {
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact .contact-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact .contact-links .contact-address {
+    width: 50%;
+    color: white;
+    font-size: 40px;
+}
+
+.contact-form {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form form {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contact-form form h2 {
+    color: darkcyan;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form form input, textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+.contact-form form button {
+    padding: 15px;
+    background: darkcyan;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: darkcyan;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+.cookie-consent-modal {
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+}
+
+.cookie-consent-modal.active {
+    display: flex;
+}
+
+.content {
+    background-color: #fff;
+    padding: 3vw 3vw;
+    border-radius: 10px 10px 0 0;
+}
+
+.content h1 {
+    color: black;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: .8em 1.5em;
+    width: 100px;
+    margin-right: 1em;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.btn.accept {
+    background-color: chocolate;
+    color: #fff;
+}
